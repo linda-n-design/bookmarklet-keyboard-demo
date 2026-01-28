@@ -29,8 +29,8 @@ Keyboard Demo Tool is a lightweight, free bookmarklet for demonstrating keyboard
    * Mac: option+\
    * Windows/Linux: Alt+\
 * Keyboard shortcut to toggle between light and dark modes:
-   * Mac: option+T
-   * Windows/Linux: Alt+T
+   * Mac: option+K
+   * Windows/Linux: Alt+K
 * Light & dark mode: Toggle themes to match your preferences
 * Intelligent keyboard layout: Auto-detects whether you're on Mac or Windows/Linux and displays the appropriate keyboard, with option to toggle between layouts
 * Zero installation - works as a browser bookmark
@@ -53,12 +53,12 @@ Keyboard Demo Tool is a lightweight, free bookmarklet for demonstrating keyboard
 1. **Open a webpage** where you want to demonstrate keyboard navigation (note: does not work on sites with strict Content Security Policies - see Browser Compatibility section)
 2. **Click the bookmarklet** in your bookmarks bar to activate the keyboard visualizer
 3. **Type on your keyboard** - keys will highlight in real-time
-4. **Toggle between light and dark themes** using the theme buttons or keyboard shortcut (option+T on Mac, Alt+T on Windows/Linux)
+4. **Toggle between light and dark themes** using the theme buttons or keyboard shortcut (option+K on Mac, Alt+K on Windows/Linux)
 5. **Close the visualizer** with the close button or keyboard shortcut (option+\ on Mac, Alt+\ on Windows/Linux)
 
 **Keyboard shortcuts:**
 - Close: Alt+\ (Windows/Linux) or option+\ (Mac)
-- Toggle theme: Alt+T (Windows/Linux) or option+T (Mac)
+- Toggle theme: Alt+K (Windows/Linux) or option+K (Mac)
 
 ## What is a bookmarklet?
 

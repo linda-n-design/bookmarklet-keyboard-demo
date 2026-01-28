@@ -56,7 +56,7 @@
     
     // Create OS-specific shortcut labels (based on user's actual OS, not changeable)
     const closeShortcutSimple = isMacOS ? 'option+\\' : 'Alt+\\';
-    const themeShortcutSimple = isMacOS ? 'option+T' : 'Alt+T';
+    const themeShortcutSimple = isMacOS ? 'option+K' : 'Alt+K';
     
     // Helper function to create keyboard key HTML for dialog
     function createKey(text) {
@@ -66,8 +66,8 @@
     // Shortcuts based on user's OS (these don't change when keyboard layout changes)
     const closeShortcutMac = `${createKey('option')}+${createKey('\\')}`;
     const closeShortcutWin = `${createKey('Alt')}+${createKey('\\')}`;
-    const themeShortcutMac = `${createKey('option')}+${createKey('T')}`;
-    const themeShortcutWin = `${createKey('Alt')}+${createKey('T')}`;
+    const themeShortcutMac = `${createKey('option')}+${createKey('K')}`;
+    const themeShortcutWin = `${createKey('Alt')}+${createKey('K')}`;
     
     // Get shortcuts based on detected OS
     const closeShortcut = isMacOS ? closeShortcutMac : closeShortcutWin;
@@ -1258,7 +1258,7 @@
                 if (altOnly && e.code === 'Backslash') {
                     e.preventDefault();
                     window.parent.postMessage({ type: 'close' }, '*');
-                } else if (altOnly && e.code === 'KeyT') {
+                } else if (altOnly && e.code === 'KeyK') {
                     e.preventDefault();
                     setTheme(!isDarkMode);
                 }
@@ -1351,9 +1351,9 @@
                 closeVisualizer();
                 return;
             }
-            // Alt/Option + T - Toggle theme
-            // e.code is 'KeyT' on all platforms
-            if (e.code === 'KeyT') {
+            // Alt/Option + K - Toggle theme
+            // e.code is 'KeyK' on all platforms
+            if (e.code === 'KeyK') {
                 e.preventDefault();
                 e.stopPropagation();
                 iframe.contentWindow.postMessage({ type: 'toggleTheme' }, '*');
