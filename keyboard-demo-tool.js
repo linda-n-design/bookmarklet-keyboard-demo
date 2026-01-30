@@ -1038,7 +1038,7 @@
                             <div class="kv-dialog-keys">
                                 <kbd class="kv-dialog-key">${isMacOS ? 'option' : 'Alt'}</kbd>
                                 <span class="kv-dialog-plus">+</span>
-                                <kbd class="kv-dialog-key">T</kbd>
+                                <kbd class="kv-dialog-key">K</kbd>
                             </div>
                         </div>
                     </div>
